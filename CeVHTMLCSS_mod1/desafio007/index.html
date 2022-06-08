@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Opções para testes</h1>
+    <h2>Teste em outros navegadores</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque dicta voluptatum sunt voluptatem molestias odit libero dolores minus atque, excepturi amet odio minima optio quo molestiae reiciendis! Labore, ut dignissimos?</p>
+    <h2>Mude o tamanho da janela</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam eligendi mollitia cum autem quasi neque repellendus fuga iste maxime corporis sunt, vero aspernatur atque voluptatibus ipsum iure, quae enim tempora?</p>
+
+    <h2>Utilização da tag &lt;picture&gt;</h2>
+    <p>
+        Dentro desta tag, devemos utilizar a tag img, para apontar qual é a imagem principal, qual imagem deve ser exibida considerando a melhor condição.</br>
+        A partir desta imagem, devemos utilizar as tags &lt;source&gt; para indicar quais imagens devem ser utilizadas em determinadas situações. 
+    </p><!--ordem de imagens: menor sempre em cima-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="paisagem-p.png">
+        <source media="(max-width: 1050px)" srcset="paisagem-m.png">
+        <img src="paisagem-g.png" alt="Imagem flexível">
+    </picture>
+
+</body>
+</html>
