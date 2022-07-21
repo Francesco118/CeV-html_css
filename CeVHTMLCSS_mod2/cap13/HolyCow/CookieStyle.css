@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,500&display=swap');
+
+/* 
+FONTES: 
+font-family: 'Alegreya Sans', sans-serif;
+
+CORES
+#F2F2F2 BRANCO
+#400E03 marrom escuro
+#591303 marrom claro
+#5BD9D9 AZUL ESCURO
+#5BCCD9 CLARO
+*/
+
+* {
+    text-align: center;
+}
+body {
+    margin: 0px;
+}
+header {
+    background-color: #591303;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+main {
+    background-color: #5BCCD9;
+    padding: 10px;
+    margin: auto;
+}
+article {
+    background-color: #52bac5;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 6px 5px -1px black;
+    border-radius: 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+footer {
+    background-color: #400E03;
+    padding: 10px;
+    margin: auto;
+    color:#F2F2F2;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+a {
+    color: #F2F2F2;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: solid;
+    color: #5BD9D9;
+}
+img {
+    border-radius: 50%;
+}
