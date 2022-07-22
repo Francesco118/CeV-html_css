@@ -1,0 +1,14 @@
+@charset "UTF-8";
+* { /* asterisco (*) serve para fazer aplicações globais, ou seja, tudo*/
+}
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    background-image: radial-gradient(circle, #3198E2 20%, #6D59C0, #E33F5F, #FDD579);
+    color: black;
+    background-attachment: fixed; /*Mantém o fundo fixo, mesmo ao scrollar a página*/
+    height: 100%;
+    text-align: just;
+}
+h1 {
+    text-align: center;
+}
